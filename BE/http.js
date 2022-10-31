@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const BACKEND_URL =
-  "https://react-native-course-d12c3-default-rtdb.firebaseio.com";
+  "https://bogdanproject-335e8-default-rtdb.europe-west1.firebasedatabase.app/";
 
 export async function storePet(petData) {
   const response = await axios.post(BACKEND_URL + "/pet.json", petData);
